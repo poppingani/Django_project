@@ -1,0 +1,58 @@
+#main
+{
+	width:100%;
+	margin:none;
+}
+header
+{
+	width:100%;
+	float:left;
+	background-color:grey;
+}
+header h1
+{
+	float:left;
+	color:red;
+	background-color:white;
+	margin-left:3%;
+}
+header nav
+{
+	float:left;
+	width:60%;
+	margin-top:2%;
+}
+header nav ul li{
+	list-style-type:none;
+	float:left;
+	margin-left:2%;
+}
+a:hover{
+	text-decoration:underline;
+	color:red;
+}
+nav a{
+	color:white;
+	text-decoration:none;
+}
+#h {
+	background-color:red;
+}
+section{
+	float:left;
+	width:1350px;
+	height:500px;
+	#background-image:url('../images/background.jpg');
+	background-size:100% 100%;
+	overflow-x:hidden;
+	background-color:black;
+	text-align:left;
+}
+section article{
+	float:left;
+	overflow-x:hidden;
+	color:white;
+}
+article img {
+	margin-left: 400px;
+}

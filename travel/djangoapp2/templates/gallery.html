@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>gallery</title>
+{% load static %}
+<link href="{% static '/css/gallery.css' %}" rel="stylesheet">
+</head>
+<body>
+<div id="main">
+<header>
+	<h1>A Square Travels</h1>
+	<nav>
+		<ul>
+			<li><a href="/travel/">HOME</a></li>
+			<li><a href="/travel2/">PACKAGES</a></li>
+			<li><a href="/travel3/">SERVICES</a></li>
+			<li id="h"><a href="#">GALLERY</a></li>
+			<li><a href="/travel5/">ABOUT US</a></li>
+			<li><a href="/travel6/">CONTACT</a></li>
+		</ul>
+	</nav>
+</header>
+<section>
+<img src="{% static '/images/shimla.jpg' %}" alt="cant display image"
+		width="500px" height="200px">
+<img src="{% static '/images/darjeeling.jpg' %}" alt="cant display image"
+		width="500px" height="200px">
+<img src="{% static '/images/mumbai.jpg' %}" alt="cant display image"
+		width="500px" height="200px">
+<img src="{% static '/images/vizag.jpg' %}" alt="cant display image"
+		width="500px" height="200px">
+<img src="{% static '/images/goa1.jpg' %}" alt="cant display image"
+		width="500px" height="200px">
+</section>
+</div>
+</body>
+</html>

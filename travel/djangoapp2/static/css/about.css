@@ -1,0 +1,81 @@
+body
+{
+	background-color:green;
+}
+h1
+{
+	text-align:center;
+	color:coral:
+}
+header
+{
+	width:100%;
+	float:left;
+	background-color:grey;
+}
+header h1
+{
+	float:left;
+	color:red;
+	background-color:white;
+	margin-left:3%;
+}
+header nav
+{
+	float:left;
+	width:60%;
+	margin-top:2%;
+}
+header nav ul li{
+	list-style-type:none;
+	float:left;
+	margin-left:2%;
+}
+a:hover{
+	text-decoration:underline;
+	color:red;
+}
+nav a{
+	color:white;
+	text-decoration:none;
+}
+#wrapper
+{
+	width:600px;
+	height:400px;
+	margin-left:500px;
+	margin-top:50px;
+	border:0px solid black;
+}
+.img
+{
+	width:200px;
+	height:200px;
+	float:left;
+	margin:40px;
+	background-size:100% 100%;
+	border:1px solid black;
+}
+#one{
+	background-image:url('../images/ankit.jpg');
+}
+#two
+{
+	background-image:url('../images/anirban.jpg');
+}
+p
+{
+	float:left;
+	margin-left:100px;
+	font-style:italic:
+}
+.a{
+	text-align:justify;
+	margin:4%;
+}
+.b{
+	margin:3%;
+}
+#h {
+	background-color:red;
+}

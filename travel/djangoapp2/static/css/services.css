@@ -1,0 +1,67 @@
+#main
+{
+	width:100%;
+	margin:none;
+}
+header
+{
+	width:100%;
+	float:left;
+	background-color:grey;
+}
+header h1
+{
+	float:left;
+	color:red;
+	background-color:white;
+	margin-left:3%;
+}
+header nav
+{
+	float:left;
+	width:60%;
+	margin-top:2%;
+}
+header nav ul li{
+	list-style-type:none;
+	float:left;
+	margin-left:2%;
+}
+a:hover{
+	text-decoration:underline;
+	color:red;
+}
+nav a{
+	color:white;
+	text-decoration:none;
+}
+section{
+	float:left;
+	width:1350px;
+	background-color:white;
+	height:500px;
+	overflow-x:hidden;
+}
+section  p{
+	margin-top:30px;
+	text-align:justify;
+}
+#visa
+{
+	float:left;
+	width:40%;
+	height:50%;
+	background-color:blue;
+	text-align:center;
+}
+#package
+{
+	float:right;
+	width:40%;
+	height:50%;
+	background-color:green;
+	text-align:center;
+}
+#h {
+	background-color:red;
+}

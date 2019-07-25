@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>home page</title>
+{% load static %}
+<link href="{% static '/css/homepage.css' %}" rel="stylesheet">
+</head>
+<body>
+<div id="main">
+<header>
+	<h1>A Square Travels</h1>
+	<nav>
+		<ul>
+			<li id="h"><a href="#">HOME</a></li>
+			<li><a href="/travel2/">PACKAGES</a></li>
+			<li><a href="/travel3/">SERVICES</a></li>
+			<li><a href="/travel4">GALLERY</a></li>
+			<li><a href="/travel5/">ABOUT US</a></li>
+			<li><a href="/travel6">CONTACT</a></li>
+		</ul>
+	</nav>
+</header>
+<section>
+	<article>
+		
+		<div class="middle">
+            <div class="slider">
+                 <img src="{% static '/images/shimla.jpg' %}"/> 
+				 <img src="{% static '/images/darjeeling.jpg' %}" />
+				 <img src="{% static '/images/mumbai.jpg' %}" />
+				 <img src="{% static '/images/vizag.jpg' %}" />
+			</div>
+		</div>
+		<p>
+		<img src="{% static '/images/goa1.jpg' %}" alt="cant display image"
+		width="800px" height="270px">
+		</p>
+
+	</article>
+		<aside>
+			<p>
+			Travel with the best tour packages in India
+			</p>
+			<p>
+			Our Customer-Centric Packages
+			</p>
+			<p>
+			We Understand Your Varied Needs as the Best Kolkata Travel Agency, India
+			</p>
+			<p id="d">
+			Why Choose Us As Your Travel Partner?
+			<br>
+			From tickets booking to the end of the tour, on our quest to offer maximum convenience to all of you, we take care of everything from top to bottom.
+			So no more hassles of connecting all the loose ends alone and no more spending extravagantly.
+			</p>
+			<p id="e">
+			Why Choose Us As Your Tour Operators In India Over An Online Service?
+			<br>
+The same reason why you would prefer an operator to transfer your calls or connect you to the right person in your bank as against an automated service, which tells you to press this number, followed by that. Nothing beats a human answering back!
+			</p>
+		</aside>
+	</section>
+<footer>
+	<p>Copyright &copy;2019</p>
+</footer>
+</div>
+</body>
+</html>
